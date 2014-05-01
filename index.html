@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+
+    <title>Brother's Appreciation 2014</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootmin.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body onmousedown='return false;' onselectstart='return false;' >
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand text-center">Brother's Appreciation 2014</h3>
+
+              <!--
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            -->
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 id="encourage" class="cover-heading">Click anywhere to begin</h1>
+            <img src="./assets/img/goclogo.png" alt="..." class="img-circle" id="profile">
+            <p class="lead" id="girlname"></p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Simple Broapp test by <a href="#">cjsub</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script>
+    var notes = [
+     {gname:"Gabrielle Deocares", note:"A wise man will make more opportunities than he finds.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c0.44.200.200/p200x200/10153866_10152336415948556_465324626_n.jpg"},
+     {gname:"Lindsey J. Han", note:"If a man be gracious and courteous to strangers, it shows he is a citizen of the world.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/p200x200/1392944_10201765124637579_2042130331_n.jpg"},
+     {gname:"Aileen Jiras", note:"Don’t listen to anyone who tells you that you can’t do this or that.  That’s nonsense.  Make up your mind you’ll never use crutches or a stick, then have a go at everything…never, never let them persuade you that things are too difficult or impossible.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/t1.0-1/c0.28.200.200/p200x200/10155139_10154010589965858_3208451373528277008_n.jpg"},
+     {gname:"Estelle Kao", note:"You don’t get to choose how you’re going to die.  Or when.  You can only decide how you’re going to live.  Now.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c14.0.200.200/p200x200/10302010_868254719867570_1572439260341111995_n.jpg"},
+     {gname:"Josephine Liu", note:"Life is a school of probability.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c0.0.200.200/p200x200/1530330_10152046505990592_1732864997022252484_n.jpg"},
+     {gname:"Christine Lam", note:"I think knowing what you cannot do is more important than knowing what you can do.  In fact, that’s good taste.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c0.0.200.200/p200x200/10268653_681543125224887_7737952241300317942_n.jpg"},
+     {gname:"Sandy Chen", note:"Luck?  I don’t know anything about luck.  I’ve never banked on it, and I’m afraid of people who do.  Luck to me is something else: hard work and realizing what is opportunity and what isn’t.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/v/t1.0-1/c32.32.403.403/s200x200/305782_2590847536448_991064288_n.jpg?oh=9a88460e0c21a6c83295e3035559c380&oe=53D9E96D&__gda__=1406774921_86688e0942fb0e0a5df7f78e4bbf0123"},
+     {gname:"Tierra Sowell", note:"There is no such thing as a great talent without great willpower.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/c63.0.200.200/p200x200/551417_684261991608058_986254958_n.jpg"},
+     {gname:"Erin Ng", note:"You grow old first not in your own eyes, but in other people’s eyes; then, slowly, you agree with their opinion of you.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/t1.0-1/c50.0.200.200/p200x200/1186724_10151631485588093_865982403_n.jpg"},
+     {gname:"Madeleine Thorne", note:"If we keep an open mind, too much is likely to fall into it.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c0.0.200.200/p200x200/1975123_653785654670738_870748880_n.jpg"},
+     {gname:"Julie Yu", note:"again, please enter your email at the top right of this page.   You will get an automatic email whenever I post a new page of quotes.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c0.0.200.200/p200x200/10003885_10202266903727270_820296290_n.jpg"},
+    ]
+
+    // number of images
+    var cnt = notes.length;
+    var imgLink = "./assets/img/img (0).jpg";
+    var num = 0;
+
+    function getNum(){
+      return Math.floor((Math.random() * cnt));
+    }
+    function newColor(){
+      return '#'+Math.floor(Math.random()*16777215).toString(16);
+    }
+
+    $(document).mousedown(function(event) {
+        num = getNum();
+        //var imgLink = "./assets/img/img ("+num+").jpg";
+        //$("body").css("background", "url('" + imgLink + "') no-repeat center center fixed");
+        col = newColor();
+        $("body").css("background-color",col);
+        $("#encourage").text(notes[num].note + "("+num+")");
+        $("#profile").attr("src",notes[num].pic);
+        $("#girlname").text("- "+notes[num].gname);
+    });
+
+    </script>
+  </body>
+</html>

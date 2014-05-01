@@ -99,7 +99,7 @@ body {
 
 @media (min-width: 768px) {
   .masthead-brand {
-    float: left;
+    /*float: left;*/
   }
   .masthead-nav {
     float: right;
@@ -160,6 +160,13 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 900px;
   }
+}
+
+#profile {
+}
+
+h1{
+  font-size: 30px;
 }
