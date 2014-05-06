@@ -36,26 +36,29 @@
           <div class="masthead clearfix">
             <div class="inner">
               <h3 class="masthead-brand text-center">Brother's Appreciation 2014</h3>
-
-              <!--
+<!-- 
               <ul class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Show <b class="caret"></b></a>
+                  <ul id="populate" class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                  </ul>
+                </li>
+              </ul> -->
             </div>
           </div>
 
           <div class="inner cover">
-            <h1 id="encourage" class="cover-heading">Click anywhere to begin</h1>
+            <div id="encourage" class="cover-heading">
+              <p class="text-center">Click anywhere to begin</p>
+            </div>
             <img src="./assets/img/goclogo.png" alt="..." class="img-circle" id="profile">
             <p class="lead" id="girlname"></p>
           </div>
 
           <div class="mastfoot">
             <div class="inner">
-              <p>Simple Broapp test by <a href="#">cjsub</a>.</p>
+              <p><a href="http://www.gocbroapp.com">GOCBroApp</a> was brought to you by the GOC Junior girls and made by <a href="http://www.joonsub.com">cjsub</a>.</p>
             </div>
           </div>
 
@@ -72,23 +75,23 @@
     <script src="./assets/js/bootstrap.js"></script>
     <script>
     var notes = [
-     {gname:"Gabrielle Deocares", note:"A wise man will make more opportunities than he finds.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c0.44.200.200/p200x200/10153866_10152336415948556_465324626_n.jpg"},
-     {gname:"Lindsey J. Han", note:"If a man be gracious and courteous to strangers, it shows he is a citizen of the world.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/p200x200/1392944_10201765124637579_2042130331_n.jpg"},
-     {gname:"Aileen Jiras", note:"Don’t listen to anyone who tells you that you can’t do this or that.  That’s nonsense.  Make up your mind you’ll never use crutches or a stick, then have a go at everything…never, never let them persuade you that things are too difficult or impossible.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/t1.0-1/c0.28.200.200/p200x200/10155139_10154010589965858_3208451373528277008_n.jpg"},
-     {gname:"Estelle Kao", note:"You don’t get to choose how you’re going to die.  Or when.  You can only decide how you’re going to live.  Now.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c14.0.200.200/p200x200/10302010_868254719867570_1572439260341111995_n.jpg"},
-     {gname:"Josephine Liu", note:"Life is a school of probability.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c0.0.200.200/p200x200/1530330_10152046505990592_1732864997022252484_n.jpg"},
-     {gname:"Christine Lam", note:"I think knowing what you cannot do is more important than knowing what you can do.  In fact, that’s good taste.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c0.0.200.200/p200x200/10268653_681543125224887_7737952241300317942_n.jpg"},
-     {gname:"Sandy Chen", note:"Luck?  I don’t know anything about luck.  I’ve never banked on it, and I’m afraid of people who do.  Luck to me is something else: hard work and realizing what is opportunity and what isn’t.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/v/t1.0-1/c32.32.403.403/s200x200/305782_2590847536448_991064288_n.jpg?oh=9a88460e0c21a6c83295e3035559c380&oe=53D9E96D&__gda__=1406774921_86688e0942fb0e0a5df7f78e4bbf0123"},
-     {gname:"Tierra Sowell", note:"There is no such thing as a great talent without great willpower.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/c63.0.200.200/p200x200/551417_684261991608058_986254958_n.jpg"},
-     {gname:"Erin Ng", note:"You grow old first not in your own eyes, but in other people’s eyes; then, slowly, you agree with their opinion of you.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/t1.0-1/c50.0.200.200/p200x200/1186724_10151631485588093_865982403_n.jpg"},
-     {gname:"Madeleine Thorne", note:"If we keep an open mind, too much is likely to fall into it.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c0.0.200.200/p200x200/1975123_653785654670738_870748880_n.jpg"},
-     {gname:"Julie Yu", note:"again, please enter your email at the top right of this page.   You will get an automatic email whenever I post a new page of quotes.", pic:"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c0.0.200.200/p200x200/10003885_10202266903727270_820296290_n.jpg"},
+     {gname:"Lindsey J. Han", note:"To my GOC junior brothers,<br />Praise God that He has brought us together as a class! The junior sisters are so blessed to run the race with you guys. Thank you for being godly men who fear the Lord and strive to serve Him with all your heart, soul, mind, and strength. I am always encouraged when I see you guys serving the church faithfully, when I hear you pray with God's glory in mind, when I see you step up in leadership, when I see your willingness to sacrifice your time to serve others, etc. I have been personally blessed by many of you --- by serving with you or talking with you, and in our interactions am reminded of God's power of sanctification as He grows you all in maturity and wisdom that comes from above. He is good and gracious to continue being faithful to us when we constantly sin against Him. May He further His Kingdom and His glory in each of your lives, and may He continue to mold each of you into true worshipers of Him, in spirit and in truth, as you offer your lives to Him as living sacrifices. Love you guys, and I'm really excited to grow with you for one more year! Let's look back at the Lord's faithfulness these past three years, and press on with full confidence in His strength, and hope set fully on His promises.<br />Love,<br />Lindsey", pic:"./assets/img/pic/lindsey.jpg"},
+     {gname:"Aileen Jiras", note:"I'm thankful because your testimony of faithfulness in loving and serving God reminds me of Paul in Acts 20:24. \"But I do not account my life of any value nor as precious to myself, if only I may finish my course and the ministry that I received from the Lord Jesus.\" I am very thankful to run and serve alongside all of you brothers!", pic:"./assets/img/pic/aileen.jpg"},
+     {gname:"Madeleine Thorne", note:"Hey Brothers!! I'm really thankful for you guys because you show us who Christ is. You show us his kindness and faithfulness by helping us get home at night. You show us his holiness through your own growth and sanctification. And, you show his servant heart by the way that you care for the church. Thanks for being such an encouragement to us!", pic:"./assets/img/pic/maddie.jpg"},
+     {gname:"Carissa Brown", note:"I'm thankful for how The Lord has grown you all into spiritual leaders. I haven't been amongst the people who've seen you all grow inch by inch, but I'm thankful that The Lord is faithful for all of you. At the beginning, you were just learning the importance to walk girls wherever, and now being leaders of ministry within GOC.<br />But.. If to y'all are too busy to walk us now; I'll have back up just in case.", pic:"./assets/img/pic/carissa.jpg"},
+     {gname:"Kay Lin", note:"Brothers! I am thankful for the Ephesians 4 unity among y’all that I see among yourselves and have been blessed by! “I therefore, a prisoner for the Lord, urge you to walk in a manner worthy of the calling to which you have been called, with all humility and gentleness, with patience, bearing with one another in love, eager to maintain the unity of the Spirit in the bond of peace. There is one body and one Spirit—just as you were called to the one hope that belongs to your call—one Lord, one faith, one baptism, one God and Father of all, who is over all and through all and in all.” (Ephesians 4:1-6)", pic:"./assets/img/pic/kay.jpg"},
+     {gname:"Kim Du", note:"Thanks for the fun and joy when spending time with you guys. I enjoy that we're able to joke around as well as have more serious conversations. It's been fun playing ball with some of you too. Love you guys!", pic:"./assets/img/pic/kim.jpg"},
+     {gname:"Rachel Ong", note:"I'm so thankful to God for how He's grown you guys' personal holiness. Through seeing God grow many of you as leaders on formal ministry teams, I see the servant heart of Christ and am reminded of His love for the body. By placing you in these roles, I feel so blessed to witness God's work in growing you into Ephesians 5 type guys (even if I'm just seeing from a distance)! I'm encouraged by your faithfulness to disciple, shepherd and evangelize to other guys. I hear about you guys often from younger guys, and they talk highly about you with a lot of respect. I can tell how much they value your wisdom and the time you invest into their lives. So continue to excel still more, your work has not been in vain. I'll just leave you guys with 1 Samuel 12:24. Happy Bros App! I appreciate you!", pic:"./assets/img/pic/rachel.jpg"},
+     {gname:"Monica Lee", note:"Thank you junior guys for all the ways you serve us girls, both big and small. Thanks for walking us at night and keeping us company while keeping us safe. Thanks for your prayers to help the ministries at GOC run smoothly. Thanks for the time, thought, and dedication you all put in to serving those around you. Thanks for being leaders and our brothers-in-Christ. The Lord has grown each one of you and I know He has wonderful plans for how your talents can further glorify Him. From baked goods to homework help, we are so appreciative of how much you all give. We don't say this enough, but thank you!", pic:"./assets/img/pic/monica.jpg"},
+     {gname:"Estelle Kao", note:"I am thankful for my bros because even though they're better chefs, better bakers, and have nicer handwriting than me, they are humble and always willing to be of service. They keep God's Word in their hearts and lead by example. Y'all are the coolest beans in the batch! ", pic:"./assets/img/pic/estelle.jpg"},
+     {gname:"Gabrielle Deocares", note:"I was honestly a little weirded out when I first joined GOC because of how much you guys cared for us.  You guys would open doors, walk us back, and help us to love Jesus more.  In retrospect, I guess it was weird because it's so different from the world that we live in.  I realize now that what I once thought was weird is actually pretty wonderful, because your lives are such a clear depiction of Christ's work.  Thanks guys :)", pic:"./assets/img/pic/gabby.jpg"}
     ]
-
     // number of images
     var cnt = notes.length;
     var imgLink = "./assets/img/img (0).jpg";
     var num = 0;
+    var globalid = 0;
+    var prevnum = 0;
 
     function getNum(){
       return Math.floor((Math.random() * cnt));
@@ -97,15 +100,32 @@
       return '#'+Math.floor(Math.random()*16777215).toString(16);
     }
 
-    $(document).mousedown(function(event) {
-        num = getNum();
+    function setEncouragement(){
+        prevnum = num;
+        while (prevnum == num){
+          num = getNum();
+        }
+
         //var imgLink = "./assets/img/img ("+num+").jpg";
         //$("body").css("background", "url('" + imgLink + "') no-repeat center center fixed");
         col = newColor();
         $("body").css("background-color",col);
-        $("#encourage").text(notes[num].note + "("+num+")");
+
+        if (notes[num].note.length > 1000){
+          $("#encourage").html("<h4>"+notes[num].note+"</h4>");
+        }else if (notes[num].note.length > 350){
+          $("#encourage").html("<h2>"+notes[num].note+"</h2>");
+        }else{
+          $("#encourage").html("<h1>"+notes[num].note+"</h1>");
+        }
+
         $("#profile").attr("src",notes[num].pic);
         $("#girlname").text("- "+notes[num].gname);
+        window.location.href = "http://gocbroapp.com/#"+notes[num].gname;
+    }
+
+    $(document).mousedown(function(event) {
+        setEncouragement();
     });
 
     </script>
